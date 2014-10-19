@@ -1,0 +1,8 @@
+A proof of concept / initial attempt at a workflow/process management app.
+
+To install, run...
+> ./manage.py syncdb
+> ./manage.oy migrate
+
+To see what it does, read the wf/tests.py file and run
+> ./manage.py test wf
